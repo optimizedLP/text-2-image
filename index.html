@@ -21,6 +21,8 @@
         }
         main {
             padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
         }
         section {
             margin-bottom: 20px;
@@ -45,6 +47,23 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .sample {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .sample h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -99,6 +118,19 @@
                 <pre><code>python text_to_image.py</code></pre>
                 <li>Follow the prompts in the command-line interface to generate images.</li>
             </ol>
+        </section>
+
+        <section>
+            <h2>Sample Outputs</h2>
+            <div class="sample">
+                <h3>Input: "A majestic Bengal tiger with vibrant orange fur and black stripes in a lush tropical rainforest, dappled sunlight filtering through the canopy, creating a sense of tension and anticipation."</h3>
+                <img src="generated_images/A_majestic_Bengal_tiger_with_vibrant_orange_fur_an_0.png" alt="Serene lake at sunset">
+            </div>
+            <div class="sample">
+                <h3>Input: "Grumpy old man, realistic oil painting, seated pose slightly off-center, focusing on facial expressions, with natural muted colors and soft ambient lighting."</h3>
+                <img src="generated_images/Grumpy_old_man,_realistic_oil_painting,_seated_pos_0.png" alt="Futuristic cityscape">
+            </div>
+            <!-- Add more samples as needed -->
         </section>
 
         <section>
