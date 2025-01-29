@@ -14,7 +14,7 @@
             color: #333;
         }
         header {
-            background: #333;
+            background: #1A4B8;
             color: #fff;
             padding: 10px 20px;
             text-align: center;
@@ -88,37 +88,14 @@
         </section>
 
         <section>
-            <h2>Requirements</h2>
-            <ul>
-                <li>Python 3.8 or higher</li>
-                <li>PyTorch with CUDA support (recommended for GPU acceleration)</li>
-                <li><code>diffusers</code> library by Hugging Face</li>
-                <li>Pillow (<code>PIL</code>) for image handling</li>
-            </ul>
-        </section>
-
-        <section>
             <h2>How It Works</h2>
             <ol>
-                <li>The environment is set up to check for CUDA availability and GPU compatibility.</li>
-                <li>The Stable Diffusion model is initialized using the Hugging Face repository (<code>runwayml/stable-diffusion-v1-5</code>) with support for FP16 precision on GPUs.</li>
                 <li>The user provides a text prompt and specifies the number of images to generate via the CLI.</li>
                 <li>The model generates images based on the prompt, which are saved in the specified output directory.</li>
                 <li>The user can optionally display the first generated image directly from the CLI.</li>
             </ol>
         </section>
 
-        <section>
-            <h2>Usage Instructions</h2>
-            <p>To run this project locally:</p>
-            <ol>
-                <li>Ensure you have Python and required libraries installed. Run:</li>
-                <pre><code>pip install torch diffusers pillow</code></pre>
-                <li>Run the script:</li>
-                <pre><code>python text_to_image.py</code></pre>
-                <li>Follow the prompts in the command-line interface to generate images.</li>
-            </ol>
-        </section>
 
         <section>
             <h2>Sample Outputs</h2>
