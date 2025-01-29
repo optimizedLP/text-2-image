@@ -1,4 +1,4 @@
-# Text-to-Image Generation with Stable Diffusion
+# Text-to-Image 
 
 This project leverages the power of **Stable Diffusion** to generate images from text prompts. It uses the `diffusers` library by Hugging Face and PyTorch to create high-quality images based on user-provided text inputs.
 
@@ -20,18 +20,26 @@ This project leverages the power of **Stable Diffusion** to generate images from
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/optimizedLP/text2image-stable-diffusion.git
-   cd text2image-stable-diffusion
+   git clone https://github.com/optimizedLP/text2image.git
+   cd text2image
 
-2. Install requirements:
-    ```pip install -r requirements.txt
+2. **Install requirements**:
+    ```bash
+    pip install -r requirements.txt
 
-3. Run:
-    ```python text-2-image.py
+3. **Run**:
+    ```bash
+    python text-2-image.py
 
-4. Enter the prompt!
+4. **Enter the prompt!**
 
 
 ## Acknowledgments
-Hugging Face Diffusers for the Stable Diffusion implementation.
-Stable Diffusion by Stability AI.
+* [Hugging Face Diffusers for the Stable Diffusion implementation](https://huggingface.co/docs/hub/en/diffusers).
+* [Stable Diffusion by Stability AI](https://stability.ai/).
+
+
+## 🤝 Let's Connect
+
+- [LinkedIn](https://www.linkedin.com/in/dpjani)
+- [Personal Website](https://www.dpjani.github.io)
